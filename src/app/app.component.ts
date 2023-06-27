@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'simpleCRM';
+
+  contacts = [
+    {
+      'firstName' : 'ARC',
+      'lastName'  : 'Tutorials',
+      'contactId' : 1234
+    },
+    {
+      'firstName' : 'Mark',
+      'lastName'  : 'Hender',
+      'contactId' : 37376
+    },
+    {
+      'firstName' : 'Ben',
+      'lastName'  : 'Stokes',
+      'contactId' : 1234
+    }
+  ]
+
 }
